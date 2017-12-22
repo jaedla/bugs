@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
   for (i = 0; arg[i] != 0; i++)
     argbuf[i] = arg[i];
 
-  if (win == 1852729719)
+  if (win == 0x77)
     printf("win\n");
   else
     printf("lose\n");
